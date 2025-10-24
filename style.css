@@ -24,9 +24,7 @@
     }
 }
 
-/* Update your hero-section class */
 .hero-section {
-    /* ...existing code... */
     background: linear-gradient(270deg,
             #2c1c41,
             #4CAF50,
@@ -35,18 +33,12 @@
     background-size: 400% 400%;
     animation: gradientFlow 15s ease infinite;
 }
-
-/* Update feature cards to have subtle float effect */
 .feature {
-    /* ...existing code... */
+    
     animation: subtleFloat 6s ease-in-out infinite;
     animation-delay: calc(var(--card-index, 0) * 0.2s);
-    /* Staggered effect */
 }
-
-/* Add this class to create a moving background effect */
 .about-section {
-    /* ...existing code... */
     background: linear-gradient(135deg,
             #2c1c41 0%,
             #4CAF50 50%,
@@ -132,6 +124,7 @@ body {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    
 }
 
 .nav-container {
@@ -159,8 +152,6 @@ body {
     padding: 8px 12px;
     border-radius: 6px;
 }
-
-/* search component */
 .search {
     position: relative;
     display: flex;
@@ -169,7 +160,6 @@ body {
 
 .search input[type="search"] {
     padding: 8px 36px 8px 12px;
-    /* room for icon */
     border-radius: 999px;
     border: none;
     outline: none;
@@ -202,8 +192,7 @@ body {
     font-size: 14px;
 }
 
-/* adjust for small screens */
-@media (max-width: 600px) {
+@media (max-width: 768x) {
     .nav-inner {
         flex-direction: column;
         gap: 12px;
@@ -219,7 +208,6 @@ body {
 .hero-section {
     height: 100vh;
     background-image: url('images/image\ copy.png');
-    /* Replace with actual image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -327,8 +315,6 @@ body {
 .html{
     scroll-behavior: smooth;
 }
-
-/* Section spacing and styles */
 section {
     padding: 80px 0;
 }
